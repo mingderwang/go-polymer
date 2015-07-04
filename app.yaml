@@ -1,8 +1,11 @@
-application: go-polymer
-version: 1
+application: helloworld
+version: 2
 runtime: go
+vm: true
 api_version: go1
 
+manual_scaling:
+  instances: 1
 handlers:
 - url: /.*
   script: _go_app
