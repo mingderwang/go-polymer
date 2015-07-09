@@ -1,7 +1,9 @@
 Deploy to GAE
 
 * create your gae project first
-* goapp deploy -oauth -application <project_name> go-polymer
+* gcloud auth login
+* gcloud config set project muzha
+* goapp deploy -application <project_name> go-polymer
 
 
 Go and Polymer - Friends Forever
