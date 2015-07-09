@@ -1,5 +1,5 @@
 application: helloworld
-version: 3
+version: 5
 runtime: go
 vm: true
 api_version: go1

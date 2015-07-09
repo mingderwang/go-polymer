@@ -5,6 +5,9 @@ Deploy to GAE
 * gcloud config set project muzha
 * goapp deploy -application <project_name> go-polymer
 
+need to add your new web app URL in firebase
+* https://katdataset.firebaseio.com/?page=Auth
+
 
 Go and Polymer - Friends Forever
 =============
